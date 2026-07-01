@@ -4,22 +4,25 @@ export const dynamic = "force-static";
 import { products } from "@/data/products";
 import { SITE_URL } from "@/lib/contact";
 
+const LAST_UPDATED = new Date("2026-07-01");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL.replace(/\/$/, "");
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${base}/`,              priority: 1.0, changeFrequency: "weekly"  },
-    { url: `${base}/products/`,     priority: 0.9, changeFrequency: "weekly"  },
-    { url: `${base}/about/`,        priority: 0.7, changeFrequency: "monthly" },
-    { url: `${base}/contact/`,      priority: 0.7, changeFrequency: "monthly" },
-    { url: `${base}/industries/`,   priority: 0.7, changeFrequency: "monthly" },
-    { url: `${base}/why-choose-us/`,priority: 0.6, changeFrequency: "monthly" },
+    { url: `${base}/`,              priority: 1.0, changeFrequency: "weekly",  lastModified: LAST_UPDATED },
+    { url: `${base}/products/`,     priority: 0.9, changeFrequency: "weekly",  lastModified: LAST_UPDATED },
+    { url: `${base}/about/`,        priority: 0.7, changeFrequency: "monthly", lastModified: LAST_UPDATED },
+    { url: `${base}/contact/`,      priority: 0.7, changeFrequency: "monthly", lastModified: LAST_UPDATED },
+    { url: `${base}/industries/`,   priority: 0.7, changeFrequency: "monthly", lastModified: LAST_UPDATED },
+    { url: `${base}/why-choose-us/`,priority: 0.6, changeFrequency: "monthly", lastModified: LAST_UPDATED },
   ];
 
   const productPages: MetadataRoute.Sitemap = products.map((p) => ({
     url: `${base}/products/${p.slug}/`,
     priority: 0.8,
-    changeFrequency: "monthly",
+    changeFrequency: "monthly" as const,
+    lastModified: LAST_UPDATED,
   }));
 
   return [...staticPages, ...productPages];

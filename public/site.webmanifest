@@ -1,1 +1,14 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Techno Machinery Service",
+  "short_name": "Techno Machinery",
+  "description": "Construction equipment supplier in Kolkata – rebar cutters, bar benders, concrete mixers, excavators & more. Pan India delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#071B45",
+  "background_color": "#071B45",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/android-chrome-512x512.png",  "sizes": "512x512",  "type": "image/png", "purpose": "any maskable" }
+  ]
+}

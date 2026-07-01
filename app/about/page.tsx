@@ -5,8 +5,21 @@ import { Shield, Target, Users, Truck, Award, Headphones } from "lucide-react";
 import { PHONE_PRIMARY, PHONE_SECONDARY, WA_BASE } from "@/lib/contact";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Learn about Techno Machinery – a leading supplier of road and building construction equipment in India, powered by Ambey Service.",
+  title: "About Techno Machinery Service | Construction Equipment Supplier Kolkata",
+  description: "Techno Machinery Service (powered by Ambey Service) is a leading construction equipment supplier in Kolkata, West Bengal. Over a decade of experience supplying rebar cutters, bar benders, concrete mixers, excavators & more across India.",
+  alternates: { canonical: "/about" },
+  keywords: [
+    "Techno Machinery Service about",
+    "Ambey Service Kolkata",
+    "construction equipment supplier Kolkata",
+    "construction machinery dealer West Bengal",
+    "rebar machine dealer India",
+  ],
+  openGraph: {
+    title: "About Techno Machinery Service | Kolkata Construction Equipment Supplier",
+    description: "Meet the team behind Techno Machinery Service – your trusted partner for rebar cutters, bar benders, concrete mixers & heavy construction equipment. Pan India delivery.",
+    url: "/about",
+  },
 };
 
 const team = [

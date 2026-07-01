@@ -15,8 +15,21 @@ const InstagramIcon = () => (
 );
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: "Contact Techno Machinery for construction equipment enquiries. Call, WhatsApp, or visit our office in West Bengal.",
+  title: "Contact Techno Machinery Service | Kolkata – Call 7323936166",
+  description: "Contact Techno Machinery Service in Kolkata for construction equipment enquiries. Call 7323936166 or WhatsApp for price quotes on rebar cutters, bar benders, concrete mixers & more. Visit our office in Howrah, West Bengal.",
+  alternates: { canonical: "/contact" },
+  keywords: [
+    "Techno Machinery contact",
+    "construction equipment Kolkata phone",
+    "rebar cutter supplier contact",
+    "construction machine dealer Howrah",
+    "buy construction equipment Kolkata",
+  ],
+  openGraph: {
+    title: "Contact Techno Machinery Service | Kolkata – 7323936166",
+    description: "Get price quotes on rebar cutters, bar benders, excavators & more. Call or WhatsApp Techno Machinery Service in Kolkata, West Bengal.",
+    url: "/contact",
+  },
 };
 
 export default function ContactPage() {
