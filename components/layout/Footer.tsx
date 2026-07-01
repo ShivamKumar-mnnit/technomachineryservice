@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { MapPin, Phone, Mail, Globe, ArrowRight } from "lucide-react";
-import { PHONE_PRIMARY, PHONE_SECONDARY, EMAIL, SITE_URL, WA_BASE } from "@/lib/contact";
+import { PHONE_PRIMARY, PHONE_SECONDARY, EMAIL, SITE_URL, WA_BASE, YOUTUBE_CHANNEL } from "@/lib/contact";
 
 const FacebookIcon = () => (
   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
@@ -27,15 +27,17 @@ const quickLinks = [
 
 const categories = [
   "Rebar Cutting Machines",
+  "Rebar Bending Machines",
+  "Bar Straightening Machines",
+  "Ring Making Machines",
+  "Water Pumps",
+  "Concrete Pumps",
   "Concrete Mixers",
   "Generators",
-  "Tamping Rammers",
   "Plate Compactors",
   "Vibratory Rollers",
-  "Concrete Cutters",
-  "Power Trowels",
-  "Backhoe Loaders",
-  "Excavators",
+  "Thread Rolling Machines",
+  "Suspended Platforms",
 ];
 
 export default function Footer() {
@@ -87,6 +89,17 @@ export default function Footer() {
                 className="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#F7B500]/20 hover:border-[#F7B500]/50 transition-all text-white/60 hover:text-[#F7B500]"
               >
                 <InstagramIcon />
+              </a>
+              <a
+                href={YOUTUBE_CHANNEL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#FF0000]/20 hover:border-[#FF0000]/50 transition-all text-white/60 hover:text-[#FF0000]"
+                aria-label="YouTube"
+              >
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
               </a>
             </div>
           </div>

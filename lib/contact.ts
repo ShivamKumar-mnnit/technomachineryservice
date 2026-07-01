@@ -5,3 +5,4 @@ export const EMAIL           = process.env.NEXT_PUBLIC_EMAIL           ?? "techn
 export const SITE_URL        = process.env.NEXT_PUBLIC_SITE_URL        ?? "https://www.technomachineryservice.com";
 
 export const WA_BASE = `https://wa.me/${WHATSAPP}`;
+export const YOUTUBE_CHANNEL = process.env.NEXT_PUBLIC_YOUTUBE_CHANNEL ?? "https://youtube.com/@technomachinery5272";

@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ShoppingBag, Phone, ChevronDown } from "lucide-react";
 import { useRequest } from "@/context/RequestContext";
 import { cn } from "@/lib/utils";
-import { PHONE_PRIMARY, WA_BASE } from "@/lib/contact";
+import { PHONE_PRIMARY, WA_BASE, YOUTUBE_CHANNEL } from "@/lib/contact";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -106,6 +106,19 @@ export default function Navbar() {
                 )}
               </Link>
 
+              {/* YouTube icon */}
+              <a
+                href={YOUTUBE_CHANNEL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden xl:flex items-center justify-center w-9 h-9 rounded-full border border-[#FF0000]/60 hover:border-[#FF0000] hover:bg-[#FF0000] text-[#FF0000] hover:text-white transition-all duration-200"
+                aria-label="YouTube Channel"
+              >
+                <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+
               {/* WhatsApp CTA */}
               <a
                 href={WA_BASE}
@@ -192,6 +205,17 @@ export default function Navbar() {
                   className="flex items-center justify-center gap-2 bg-[#25D366] text-white font-semibold py-3 rounded-xl"
                 >
                   WhatsApp Us
+                </a>
+                <a
+                  href={YOUTUBE_CHANNEL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-[#FF0000]/10 border border-[#FF0000]/30 text-[#FF0000] font-semibold py-2.5 rounded-xl text-sm hover:bg-[#FF0000] hover:text-white transition-all"
+                >
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                  YouTube Channel
                 </a>
               </div>
             </motion.div>

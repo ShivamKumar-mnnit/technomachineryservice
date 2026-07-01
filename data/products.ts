@@ -10,8 +10,8 @@ export const products: Product[] = [
     model: "HMS",
     description:
       "High frequency internal vibrator designed for compacting concrete efficiently. Lightweight and durable with high amplitude for all construction applications.",
-    image: "/catalogue/3.png",
-    gallery: ["/catalogue/3.png"],
+    image: "/products/internal-vibrator-tm-1.jpeg",
+    gallery: ["/products/internal-vibrator-tm-1.jpeg", "/products/internal-vibrator-pokers-tm-1.jpeg", "/catalogue/3.png"],
     specifications: [
       { label: "Motor Power", value: "1.1 kW / 1.5 HP" },
       { label: "Voltage", value: "230 V / 50 Hz" },
@@ -34,8 +34,8 @@ export const products: Product[] = [
     model: "IREN",
     description:
       "Reliable 2 HP internal vibrator with overload protection and thermal safety. Compact and portable for all construction sites.",
-    image: "/catalogue/3.png",
-    gallery: ["/catalogue/3.png"],
+    image: "/products/internal-vibrator-tm-1.jpeg",
+    gallery: ["/products/internal-vibrator-tm-1.jpeg", "/catalogue/3.png"],
     specifications: [
       { label: "Motor Power", value: "1.5 kW / 2.0 HP" },
       { label: "Voltage", value: "230 V / 50 Hz" },
@@ -57,8 +57,8 @@ export const products: Product[] = [
     model: "IRFU",
     description:
       "Heavy duty 3 HP internal vibrator with overload protection and stable operation. Ideal for large construction projects.",
-    image: "/catalogue/3.png",
-    gallery: ["/catalogue/3.png"],
+    image: "/products/internal-vibrator-tm-1.jpeg",
+    gallery: ["/products/internal-vibrator-tm-1.jpeg", "/catalogue/3.png"],
     specifications: [
       { label: "Motor Power", value: "2.2 kW / 3.0 HP" },
       { label: "Voltage", value: "230 V / 50 Hz" },
@@ -81,8 +81,8 @@ export const products: Product[] = [
     model: "AR26",
     description:
       "Compact and lightweight external vibrator for formwork. High-vibrating operation with durable construction and low maintenance.",
-    image: "/catalogue/4.png",
-    gallery: ["/catalogue/4.png"],
+    image: "/products/external-vibrator-tm-1.jpeg",
+    gallery: ["/products/external-vibrator-tm-1.jpeg", "/catalogue/4.png"],
     specifications: [
       { label: "Centrifugal Force", value: "0.40 kN" },
       { label: "Voltage", value: "230 V / 50 Hz" },
@@ -104,8 +104,8 @@ export const products: Product[] = [
     model: "AR43",
     description:
       "Powerful AR43 external vibrator with energy efficient design and long service life. Suitable for all types of formwork.",
-    image: "/catalogue/4.png",
-    gallery: ["/catalogue/4.png"],
+    image: "/products/external-vibrator-tm-1.jpeg",
+    gallery: ["/products/external-vibrator-tm-1.jpeg", "/catalogue/4.png"],
     specifications: [
       { label: "Motor Power", value: "0.45 kW" },
       { label: "Voltage", value: "230 V / 50 Hz" },
@@ -130,8 +130,8 @@ export const products: Product[] = [
     model: "TMCM-125",
     description:
       "125 Ltr drum concrete mixer designed for small to medium construction sites. High mixing efficiency with strong & durable drum.",
-    image: "/catalogue/5.png",
-    gallery: ["/catalogue/5.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/5.png"],
     specifications: [
       { label: "Drum Capacity", value: "125 Ltr" },
       { label: "Mixing Capacity", value: "90 Ltr per batch" },
@@ -156,8 +156,8 @@ export const products: Product[] = [
     model: "TMCM-250",
     description:
       "250 Ltr high output concrete mixer with robust construction. Smooth operation and fuel efficient with electric or diesel power options.",
-    image: "/catalogue/5.png",
-    gallery: ["/catalogue/5.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/5.png"],
     specifications: [
       { label: "Drum Capacity", value: "250 Ltr" },
       { label: "Mixing Capacity", value: "180 Ltr per batch" },
@@ -181,8 +181,8 @@ export const products: Product[] = [
     model: "TMCM-350",
     description:
       "Heavy duty 350 Ltr concrete mixer ideal for large construction projects. Uniform mixing with easy maintenance.",
-    image: "/catalogue/5.png",
-    gallery: ["/catalogue/5.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/5.png"],
     specifications: [
       { label: "Drum Capacity", value: "350 Ltr" },
       { label: "Mixing Capacity", value: "250 Ltr per batch" },
@@ -206,8 +206,8 @@ export const products: Product[] = [
     model: "TMCM-500",
     description:
       "Maximum capacity 500 Ltr concrete mixer for industrial and large scale construction. Low operating cost with uniform mixing.",
-    image: "/catalogue/5.png",
-    gallery: ["/catalogue/5.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/5.png"],
     specifications: [
       { label: "Drum Capacity", value: "500 Ltr" },
       { label: "Mixing Capacity", value: "360 Ltr per batch" },
@@ -233,8 +233,8 @@ export const products: Product[] = [
     model: "CM-1 BAG (7/5 CFT)",
     description:
       "Compact and easy-to-move 1 bag tilting drum mixer. High mixing efficiency with strong and durable drum ideal for small construction works.",
-    image: "/catalogue/12.png",
-    gallery: ["/catalogue/12.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/12.png"],
     specifications: [
       { label: "Drum Capacity", value: "7 Cft / 0.20 m³" },
       { label: "Mixing Capacity", value: "5 Cft / 0.14 m³" },
@@ -259,8 +259,8 @@ export const products: Product[] = [
     model: "CM-2 BAG (14/10 CFT)",
     description:
       "High productivity 2 bag tilting drum mixer with uniform mixing every time. Ideal for medium to large construction projects.",
-    image: "/catalogue/12.png",
-    gallery: ["/catalogue/12.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/12.png"],
     specifications: [
       { label: "Drum Capacity", value: "14 Cft / 0.40 m³" },
       { label: "Mixing Capacity", value: "10 Cft / 0.28 m³" },
@@ -286,8 +286,8 @@ export const products: Product[] = [
     model: "CM-3 BAG (18/12 CFT)",
     description:
       "High capacity 3 bag tilting drum mixer with powerful performance. Best for large construction works with heavy duty chassis.",
-    image: "/catalogue/12.png",
-    gallery: ["/catalogue/12.png"],
+    image: "/products/concrete-mixer-tm-1.jpeg",
+    gallery: ["/products/concrete-mixer-tm-1.jpeg", "/catalogue/12.png"],
     specifications: [
       { label: "Drum Capacity", value: "18 Cft / 0.50 m³" },
       { label: "Mixing Capacity", value: "12 Cft / 0.35 m³" },
@@ -313,8 +313,8 @@ export const products: Product[] = [
     model: "TPC-60",
     description:
       "Compact and efficient forward plate compactor for soil, asphalt and granular material compaction. Ideal for trenches and road works.",
-    image: "/catalogue/6.png",
-    gallery: ["/catalogue/6.png"],
+    image: "/products/plate-compactor-tm-1.jpeg",
+    gallery: ["/products/plate-compactor-tm-1.jpeg", "/products/plate-compactor-tm-2.jpeg", "/catalogue/6.png"],
     specifications: [
       { label: "Engine Power", value: "5.5 HP" },
       { label: "Plate Size", value: "600×350 mm" },
@@ -340,8 +340,8 @@ export const products: Product[] = [
     model: "TPC-80",
     description:
       "High performance 80kg forward plate compactor for soil and asphalt compaction. Suitable for medium scale road and foundation works.",
-    image: "/catalogue/6.png",
-    gallery: ["/catalogue/6.png"],
+    image: "/products/plate-compactor-tm-1.jpeg",
+    gallery: ["/products/plate-compactor-tm-1.jpeg", "/products/plate-compactor-tm-2.jpeg", "/catalogue/6.png"],
     specifications: [
       { label: "Engine Power", value: "6.5 HP" },
       { label: "Plate Size", value: "700×450 mm" },
@@ -365,8 +365,8 @@ export const products: Product[] = [
     model: "TRPC-160",
     description:
       "160kg reversible plate compactor with forward and reverse operation. Ideal for confined spaces and around utility trenches.",
-    image: "/catalogue/6.png",
-    gallery: ["/catalogue/6.png"],
+    image: "/products/plate-compactor-tm-1.jpeg",
+    gallery: ["/products/plate-compactor-tm-1.jpeg", "/products/plate-compactor-tm-2.jpeg", "/catalogue/6.png"],
     specifications: [
       { label: "Engine Power", value: "5.5 HP" },
       { label: "Plate Size", value: "600×500 mm" },
@@ -392,8 +392,8 @@ export const products: Product[] = [
     model: "THPC-400",
     description:
       "Heavy duty 400kg plate compactor for heavy soil, gravel and asphalt compaction. High performance with 13 HP engine.",
-    image: "/catalogue/6.png",
-    gallery: ["/catalogue/6.png"],
+    image: "/products/plate-compactor-tm-1.jpeg",
+    gallery: ["/products/plate-compactor-tm-1.jpeg", "/products/plate-compactor-tm-2.jpeg", "/catalogue/6.png"],
     specifications: [
       { label: "Engine Power", value: "13 HP" },
       { label: "Plate Size", value: "830×600 mm" },
@@ -418,8 +418,8 @@ export const products: Product[] = [
     model: "TR-60",
     description:
       "Lightweight and easy to operate 60kg tamping rammer. High compaction efficiency with strong impact force for cohesive soils.",
-    image: "/catalogue/7.png",
-    gallery: ["/catalogue/7.png", "/catalogue/13.png"],
+    image: "/products/tamping-rammer-tm-1.jpeg",
+    gallery: ["/products/tamping-rammer-tm-1.jpeg", "/catalogue/7.png", "/catalogue/13.png"],
     specifications: [
       { label: "Engine Type", value: "Air Cooled, 4 Stroke Petrol" },
       { label: "Engine Power", value: "2.8 HP" },
@@ -445,8 +445,8 @@ export const products: Product[] = [
     model: "TR-72",
     description:
       "72kg tamping rammer with better balance and effective easy handling. High impact for sand, gravel and cohesive materials.",
-    image: "/catalogue/7.png",
-    gallery: ["/catalogue/7.png"],
+    image: "/products/tamping-rammer-tm-1.jpeg",
+    gallery: ["/products/tamping-rammer-tm-1.jpeg", "/catalogue/7.png"],
     specifications: [
       { label: "Engine Type", value: "Air Cooled, 4 Stroke Petrol" },
       { label: "Engine Power", value: "3.0 HP" },
@@ -471,8 +471,8 @@ export const products: Product[] = [
     model: "TR-80",
     description:
       "Powerful 80kg tamping rammer excellent for heavy duty works and durable construction. Maximum compaction for backfilling and trenches.",
-    image: "/catalogue/7.png",
-    gallery: ["/catalogue/7.png", "/catalogue/13.png"],
+    image: "/products/tamping-rammer-tm-1.jpeg",
+    gallery: ["/products/tamping-rammer-tm-1.jpeg", "/catalogue/7.png", "/catalogue/13.png"],
     specifications: [
       { label: "Engine Type", value: "Air Cooled, 4 Stroke Petrol" },
       { label: "Engine Power", value: "4.0 HP" },
@@ -498,8 +498,8 @@ export const products: Product[] = [
     model: "TR-100",
     description:
       "High performance 100kg tamping rammer for deep compaction in all soil conditions. Reliable & low maintenance design.",
-    image: "/catalogue/13.png",
-    gallery: ["/catalogue/13.png"],
+    image: "/products/tamping-rammer-tm-1.jpeg",
+    gallery: ["/products/tamping-rammer-tm-1.jpeg", "/catalogue/13.png"],
     specifications: [
       { label: "Engine Type", value: "Air Cooled, 4 Stroke Petrol" },
       { label: "Engine Power", value: "4.5 HP" },
@@ -525,8 +525,8 @@ export const products: Product[] = [
     model: "VR-600",
     description:
       "600kg walk-behind vibratory roller ideal for small areas and narrow spaces. Excellent for soil, asphalt, gravel and pathways.",
-    image: "/catalogue/14.png",
-    gallery: ["/catalogue/14.png"],
+    image: "/products/vibratory-roller-walk-behind-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-walk-behind-tm-1.jpeg", "/products/vibratory-roller-ride-on-tm-1.jpeg", "/catalogue/14.png"],
     specifications: [
       { label: "Operating Weight", value: "600 kg" },
       { label: "Drum Width", value: "630 mm" },
@@ -551,8 +551,8 @@ export const products: Product[] = [
     model: "VR-750",
     description:
       "750kg compact and powerful vibratory roller. Excellent for asphalt compaction in roads, highways and parking areas.",
-    image: "/catalogue/14.png",
-    gallery: ["/catalogue/14.png"],
+    image: "/products/vibratory-roller-walk-behind-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-walk-behind-tm-1.jpeg", "/products/vibratory-roller-ride-on-tm-1.jpeg", "/catalogue/14.png"],
     specifications: [
       { label: "Operating Weight", value: "750 kg" },
       { label: "Drum Width", value: "700 mm" },
@@ -576,8 +576,8 @@ export const products: Product[] = [
     model: "VR-1000",
     description:
       "1000kg high compaction vibratory roller for medium to large scale road construction. Strong build for tough conditions.",
-    image: "/catalogue/14.png",
-    gallery: ["/catalogue/14.png"],
+    image: "/products/vibratory-roller-walk-behind-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-walk-behind-tm-1.jpeg", "/products/vibratory-roller-ride-on-tm-1.jpeg", "/catalogue/14.png"],
     specifications: [
       { label: "Operating Weight", value: "1000 kg" },
       { label: "Drum Width", value: "900 mm" },
@@ -602,8 +602,8 @@ export const products: Product[] = [
     model: "VR-1200",
     description:
       "1200kg high performance vibratory roller for large area road and infrastructure projects. Powerful engine with high efficiency.",
-    image: "/catalogue/14.png",
-    gallery: ["/catalogue/14.png"],
+    image: "/products/vibratory-roller-walk-behind-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-walk-behind-tm-1.jpeg", "/products/vibratory-roller-ride-on-tm-1.jpeg", "/catalogue/14.png"],
     specifications: [
       { label: "Operating Weight", value: "1200 kg" },
       { label: "Drum Diameter", value: "560 mm" },
@@ -630,8 +630,8 @@ export const products: Product[] = [
     model: "TDDR-1000",
     description:
       "1 Ton double drum ride-on roller with hydrostatic drive for smooth operation. High vibration force for effective compaction.",
-    image: "/catalogue/8.png",
-    gallery: ["/catalogue/8.png"],
+    image: "/products/vibratory-roller-ride-on-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-ride-on-tm-1.jpeg", "/products/vibratory-roller-walk-behind-tm-1.jpeg", "/catalogue/8.png"],
     specifications: [
       { label: "Operating Weight", value: "1000 kg" },
       { label: "Drum Width", value: "560 mm" },
@@ -658,8 +658,8 @@ export const products: Product[] = [
     model: "TDDR-2500",
     description:
       "2.5 Ton double drum ride-on roller for highway and large scale asphalt compaction. Hydraulic steering for better handling.",
-    image: "/catalogue/8.png",
-    gallery: ["/catalogue/8.png"],
+    image: "/products/vibratory-roller-ride-on-tm-1.jpeg",
+    gallery: ["/products/vibratory-roller-ride-on-tm-1.jpeg", "/products/vibratory-roller-walk-behind-tm-1.jpeg", "/catalogue/8.png"],
     specifications: [
       { label: "Operating Weight", value: "2500 kg" },
       { label: "Drum Width", value: "1000 mm" },
@@ -686,8 +686,8 @@ export const products: Product[] = [
     model: "CC-14",
     description:
       "14 inch concrete cutter with smooth cutting operation. Compact design for easy handling, ideal for small cutting jobs.",
-    image: "/catalogue/16.png",
-    gallery: ["/catalogue/16.png"],
+    image: "/products/concrete-cutter-tm-1.jpeg",
+    gallery: ["/products/concrete-cutter-tm-1.jpeg", "/products/concrete-cutter-tm-2.jpeg", "/catalogue/16.png"],
     specifications: [
       { label: "Blade Diameter", value: "14 inch (352 mm)" },
       { label: "Max. Cutting Depth", value: "40 mm" },
@@ -713,8 +713,8 @@ export const products: Product[] = [
     model: "CC-18",
     description:
       "18 inch powerful concrete cutter for deep cutting in roads and floors. Water cooled blade for smooth and precise operation.",
-    image: "/catalogue/16.png",
-    gallery: ["/catalogue/16.png", "/catalogue/9.png"],
+    image: "/products/concrete-cutter-tm-1.jpeg",
+    gallery: ["/products/concrete-cutter-tm-1.jpeg", "/products/concrete-cutter-tm-2.jpeg", "/catalogue/16.png", "/catalogue/9.png"],
     specifications: [
       { label: "Blade Diameter", value: "18 inch (460 mm)" },
       { label: "Max. Cutting Depth", value: "150 mm" },
@@ -740,8 +740,8 @@ export const products: Product[] = [
     model: "CC-20",
     description:
       "20 inch heavy duty concrete cutter for maximum depth cutting. Ideal for heavy duty construction with efficient cooling and fuel saving.",
-    image: "/catalogue/16.png",
-    gallery: ["/catalogue/16.png"],
+    image: "/products/concrete-cutter-tm-1.jpeg",
+    gallery: ["/products/concrete-cutter-tm-1.jpeg", "/products/concrete-cutter-tm-2.jpeg", "/catalogue/16.png"],
     specifications: [
       { label: "Blade Diameter", value: "20 inch (500 mm)" },
       { label: "Max. Cutting Depth", value: "175 mm" },
@@ -840,14 +840,22 @@ export const products: Product[] = [
   // ─── REBAR CUTTING MACHINES ───────────────────────────────────────────────
   {
     id: "rb-r32",
-    slug: "rebar-cutter-sona-r32",
+    slug: "rebar-cutter-tm-r32",
     category: "Rebar Cutting Machines",
-    name: "Rebar Cutter SONA R32",
-    model: "SONA R32",
+    name: "Techno Rebar Cutter TM-R32",
+    model: "TM-R32",
     description:
-      "Heavy duty rebar cutting machine for 32mm bars. High cutting efficiency with low noise and vibration. Compact and portable for construction sites.",
-    image: "/catalogue/10.png",
-    gallery: ["/catalogue/10.png"],
+      "Techno Machinery heavy duty rebar cutting machine for 32mm bars. High cutting efficiency with low noise and vibration. Compact and portable for construction sites.",
+    image: "/products/rebar-cutter-1.jpeg",
+    gallery: [
+      "/products/rebar-cutter-1.jpeg",
+      "/products/rebar-cutter-2.jpeg",
+      "/products/rebar-cutter-3.jpeg",
+      "/products/rebar-cutter-4.jpeg",
+      "/products/rebar-cutter-gq45a-tm-1.jpeg",
+      "/catalogue/10.png",
+      "/products/rebar-cutter-orange-gold-tm-1.jpeg",
+    ],
     specifications: [
       { label: "Cutting Capacity", value: "32 mm" },
       { label: "Cutting Speed", value: "2.5 – 3.0 sec" },
@@ -866,14 +874,20 @@ export const products: Product[] = [
   },
   {
     id: "rb-r40",
-    slug: "rebar-cutter-sona-r40",
+    slug: "rebar-cutter-tm-r40",
     category: "Rebar Cutting Machines",
-    name: "Rebar Cutter SONA R40",
-    model: "SONA R40",
+    name: "Techno Rebar Cutter TM-R40",
+    model: "TM-R40",
     description:
-      "Powerful rebar cutter for 40mm bars. High strength blades with smooth and fast operation. Suitable for heavy reinforcement bars.",
-    image: "/catalogue/10.png",
-    gallery: ["/catalogue/10.png"],
+      "Techno Machinery powerful rebar cutter for 40mm bars. High strength blades with smooth and fast operation. Suitable for heavy reinforcement bars.",
+    image: "/products/rebar-cutter-2.jpeg",
+    gallery: [
+      "/products/rebar-cutter-2.jpeg",
+      "/products/rebar-cutter-1.jpeg",
+      "/products/rebar-cutter-3.jpeg",
+      "/products/rebar-cutter-4.jpeg",
+      "/catalogue/10.png",
+    ],
     specifications: [
       { label: "Cutting Capacity", value: "40 mm" },
       { label: "Cutting Speed", value: "2.5 – 3.0 sec" },
@@ -892,14 +906,20 @@ export const products: Product[] = [
   },
   {
     id: "rb-r52",
-    slug: "rebar-cutter-sona-r52",
+    slug: "rebar-cutter-tm-r52",
     category: "Rebar Cutting Machines",
-    name: "Rebar Cutter SONA R52",
-    model: "SONA R52",
+    name: "Techno Rebar Cutter TM-R52",
+    model: "TM-R52",
     description:
-      "Heavy duty rebar cutter for 52mm high tensile bars. Reliable and durable design for large construction projects with long service life.",
-    image: "/catalogue/10.png",
-    gallery: ["/catalogue/10.png"],
+      "Techno Machinery heavy duty rebar cutter for 52mm high tensile bars. Reliable and durable design for large construction projects with long service life.",
+    image: "/products/rebar-cutter-3.jpeg",
+    gallery: [
+      "/products/rebar-cutter-3.jpeg",
+      "/products/rebar-cutter-4.jpeg",
+      "/products/rebar-cutter-1.jpeg",
+      "/products/rebar-cutter-2.jpeg",
+      "/catalogue/10.png",
+    ],
     specifications: [
       { label: "Cutting Capacity", value: "52 mm" },
       { label: "Cutting Speed", value: "3.0 – 4.0 sec" },
@@ -914,6 +934,204 @@ export const products: Product[] = [
     power: "5 HP (3.7 kW)",
     capacity: "52 mm",
     tags: ["rebar", "cutter", "heavy duty", "52mm"],
+  },
+  // ─── REBAR BENDING MACHINES ───────────────────────────────────────────────
+  {
+    id: "bb-gw42j",
+    slug: "bar-bending-machine-gw-42j",
+    category: "Rebar Bending Machines",
+    name: "Bar Bending Machine GW-42J",
+    model: "GW-42J",
+    description:
+      "Heavy duty bar bending machine for up to 42mm reinforcement bars. Precision bending with digital angle control. Compact and robust build for site and workshop use.",
+    image: "/products/bar-bender-gw42j-1.jpeg",
+    gallery: [
+      "/products/bar-bender-gw42j-1.jpeg",
+      "/products/bar-bender-gw42j-2.jpeg",
+      "/products/bar-bender-yellow-1.jpeg",
+      "/products/bar-bender-front-1.jpeg",
+      "/products/bar-bender-top-1.jpeg",
+      "/products/bar-bender-blueline-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Model", value: "GW-42J" },
+      { label: "Bending Capacity", value: "42 mm (HRB400)" },
+      { label: "Bending Speed", value: "4 – 8 rpm" },
+      { label: "Motor Power", value: "3 HP (2.2 kW)" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "310 kg" },
+    ],
+    applications: ["Building Construction", "Bridge & Infrastructure", "Precast Concrete", "Road & Highway Projects"],
+    features: ["Heavy duty bending up to 42mm", "Precision angle control", "Compact & portable design", "Low noise & vibration", "Easy to operate & maintain"],
+    weight: "310 kg",
+    power: "3 HP (2.2 kW)",
+    capacity: "42 mm",
+    tags: ["rebar", "bender", "bar bending", "steel", "GW-42J"],
+    isFeatured: true,
+  },
+  {
+    id: "bb-sxw42",
+    slug: "bar-bending-machine-sxw-42",
+    category: "Rebar Bending Machines",
+    name: "Bar Bending Machine SXW-42",
+    model: "SXW-42",
+    description:
+      "CNC automatic bar bending machine SXW-42 for precision bending of reinforcement bars. High efficiency with programmable angle settings.",
+    image: "/products/bar-bender-sxw42-1.jpeg",
+    gallery: [
+      "/products/bar-bender-sxw42-1.jpeg",
+      "/products/bar-bender-panel-1.jpeg",
+      "/products/bar-bender-techno-1.jpeg",
+      "/products/bar-bender-yellow-2.jpeg",
+    ],
+    specifications: [
+      { label: "Model", value: "SXW-42" },
+      { label: "Bending Capacity", value: "42 mm (HRB400)" },
+      { label: "Bending Speed", value: "4 – 8 rpm" },
+      { label: "Motor Power", value: "3 HP (2.2 kW)" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "300 kg" },
+    ],
+    applications: ["Building Construction", "Precast Concrete", "Industrial Projects", "Bridge Works"],
+    features: ["Programmable angle control", "High bending efficiency", "Robust steel frame", "Simple operation & low maintenance"],
+    weight: "300 kg",
+    power: "3 HP (2.2 kW)",
+    capacity: "42 mm",
+    tags: ["rebar", "bender", "bar bending", "SXW-42"],
+  },
+  {
+    id: "bb-gw52",
+    slug: "bar-bending-machine-gw-52",
+    category: "Rebar Bending Machines",
+    name: "Bar Bending Machine GW-52",
+    model: "GW-52",
+    description:
+      "High capacity bar bending machine GW-52 for up to 52mm heavy bars. Powerful motor and precision bending for large-scale construction and precast work.",
+    image: "/products/bar-bender-gw52-1.jpeg",
+    gallery: [
+      "/products/bar-bender-gw52-1.jpeg",
+      "/products/bar-bender-blue-1.jpeg",
+      "/products/bar-bender-green-1.jpeg",
+      "/products/bar-bender-orange-gold-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Model", value: "GW-52" },
+      { label: "Bending Capacity", value: "52 mm (HRB400)" },
+      { label: "Bending Speed", value: "2 – 6 rpm" },
+      { label: "Motor Power", value: "5 HP (3.7 kW)" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "480 kg" },
+    ],
+    applications: ["Large Construction", "Dam & Bridge", "Infrastructure Projects", "Precast Concrete"],
+    features: ["Bends up to 52mm high tensile bars", "Powerful & reliable motor", "Heavy duty frame for continuous use", "Long service life"],
+    weight: "480 kg",
+    power: "5 HP (3.7 kW)",
+    capacity: "52 mm",
+    tags: ["rebar", "bender", "heavy duty", "GW-52", "52mm"],
+    isFeatured: true,
+  },
+  // ─── BAR STRAIGHTENING MACHINES ───────────────────────────────────────────
+  {
+    id: "bs-cnc",
+    slug: "bar-straightening-machine-cnc",
+    category: "Bar Straightening Machines",
+    name: "CNC Steel Bar Straightening & Cutting Machine",
+    model: "CNC-GTQ",
+    description:
+      "Fully automatic CNC steel bar straightening and hydraulic cutting machine. Processes coiled rebar into straight bars at high speed with precise length control. Ideal for large-scale reinforcement fabrication.",
+    image: "/products/bar-straightener-cnc-1.jpeg",
+    gallery: [
+      "/products/bar-straightener-cnc-1.jpeg",
+      "/products/bar-straightener-cnc-2.jpeg",
+      "/products/bar-straightener-cnc-3.jpeg",
+      "/products/bar-straightener-cnc-site-1.jpeg",
+      "/products/bar-straightener-cnc-tm4.jpeg",
+    ],
+    specifications: [
+      { label: "Straightening Capacity", value: "6 – 14 mm" },
+      { label: "Straightening Speed", value: "40 – 80 m/min" },
+      { label: "Cutting Method", value: "Hydraulic" },
+      { label: "Length Accuracy", value: "±1 mm" },
+      { label: "Motor Power", value: "7.5 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "1200 kg" },
+    ],
+    applications: ["Reinforcement Fabrication", "Building Construction", "Bridge & Infrastructure", "Precast Concrete Plants", "Industrial Projects"],
+    features: ["Fully automatic CNC control", "High speed straightening & cutting", "Precise length control ±1 mm", "Hydraulic cutting for clean edges", "Processes coiled rebar continuously"],
+    weight: "1200 kg",
+    power: "7.5 kW",
+    capacity: "6–14 mm",
+    tags: ["rebar", "straightening", "CNC", "steel bar", "automatic"],
+    isFeatured: true,
+  },
+  {
+    id: "bs-55m",
+    slug: "bar-straightening-machine-55m",
+    category: "Bar Straightening Machines",
+    name: "High-Speed Rebar Straightening Machine 55m",
+    model: "GTQ-55",
+    description:
+      "High-speed rebar straightening machine processing up to 55m bars. Combines straightening and cutting in one pass. Perfect for large volume rebar processing on site or in workshop.",
+    image: "/products/bar-straightener-55m-1.jpeg",
+    gallery: [
+      "/products/bar-straightener-55m-1.jpeg",
+      "/products/bar-straightener-55m-site-1.jpeg",
+      "/products/bar-straightener-techno-55m-2.jpeg",
+      "/products/bar-straightener-able-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Max. Bar Length", value: "55 m" },
+      { label: "Straightening Capacity", value: "4 – 12 mm" },
+      { label: "Straightening Speed", value: "50 – 120 m/min" },
+      { label: "Cutting Method", value: "Flying Shear" },
+      { label: "Motor Power", value: "15 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+    ],
+    applications: ["High Volume Rebar Processing", "Infrastructure Projects", "Precast Plants", "Large Reinforcement Works"],
+    features: ["Ultra high-speed processing up to 55m", "Flying shear for continuous cutting", "Minimal material waste", "Suitable for 4–12 mm coiled rebar"],
+    power: "15 kW",
+    capacity: "4–12 mm",
+    tags: ["rebar", "straightening", "high speed", "55m"],
+  },
+  // ─── RING / STIRRUP BENDING MACHINES ─────────────────────────────────────
+  {
+    id: "rm-stirrup",
+    slug: "ring-stirrup-bending-machine",
+    category: "Ring Making Machines",
+    name: "Ring & Stirrup Bending Machine",
+    model: "GW-40A",
+    description:
+      "Automatic ring and stirrup bending machine for producing square, rectangular and circular stirrups. Foot-switch controlled for safe one-person operation. Widely used on construction sites and fabrication yards.",
+    image: "/products/ring-bender-techno-1.jpeg",
+    gallery: [
+      "/products/ring-bender-techno-1.jpeg",
+      "/products/ring-bender-footswitch-1.jpeg",
+      "/products/ring-bender-blue-tm-1.jpeg",
+      "/products/ring-bender-techno-2.jpeg",
+      "/products/ring-bender-techno-3.jpeg",
+      "/products/ring-bender-techno-4.jpeg",
+      "/products/ring-bender-site-1.jpeg",
+      "/products/ring-bender-site-2.jpeg",
+      "/products/stirrup-product-tm-1.jpg",
+      "/products/stirrup-product-tm-2.jpg",
+      "/products/stirrup-product-tm-3.jpg",
+    ],
+    specifications: [
+      { label: "Bending Capacity", value: "6 – 16 mm" },
+      { label: "Bending Speed", value: "8 – 12 rpm" },
+      { label: "Stirrup Shapes", value: "Square, Rectangle, Triangle, Circle" },
+      { label: "Control", value: "Foot-Switch + Manual" },
+      { label: "Motor Power", value: "1.5 kW" },
+      { label: "Voltage / Frequency", value: "220 V / 50 Hz / Single Phase" },
+      { label: "Weight", value: "140 kg" },
+    ],
+    applications: ["Stirrup Fabrication", "Building & Bridge Construction", "Precast Concrete", "Reinforcement Cages", "On-Site Fabrication"],
+    features: ["Foot-switch controlled for safe use", "Multiple stirrup shapes in one machine", "High production rate", "Compact & easy to relocate", "Low power consumption"],
+    weight: "140 kg",
+    power: "1.5 kW",
+    capacity: "6–16 mm",
+    tags: ["ring", "stirrup", "bender", "hoop", "reinforcement"],
+    isFeatured: true,
   },
   // ─── GENERATORS ───────────────────────────────────────────────────────────
   {
@@ -1167,8 +1385,8 @@ export const products: Product[] = [
     model: "TX-80",
     description:
       "8 Ton compact size excavator with high performance for urban construction work. Easy operation and low maintenance.",
-    image: "/catalogue/19.png",
-    gallery: ["/catalogue/19.png"],
+    image: "/products/mini-excavator-tm-1.jpeg",
+    gallery: ["/products/mini-excavator-tm-1.jpeg", "/catalogue/19.png"],
     specifications: [
       { label: "Operating Weight", value: "8000 kg" },
       { label: "Bucket Capacity", value: "0.28 m³" },
@@ -1195,8 +1413,8 @@ export const products: Product[] = [
     model: "TX-120",
     description:
       "12 Ton medium scale excavator with higher power and productivity. Strong build for tough conditions with better stability.",
-    image: "/catalogue/19.png",
-    gallery: ["/catalogue/19.png"],
+    image: "/products/mini-excavator-tm-1.jpeg",
+    gallery: ["/products/mini-excavator-tm-1.jpeg", "/catalogue/19.png"],
     specifications: [
       { label: "Operating Weight", value: "12000 kg" },
       { label: "Bucket Capacity", value: "0.45 m³" },
@@ -1223,8 +1441,8 @@ export const products: Product[] = [
     model: "TX-200",
     description:
       "20 Ton powerful excavator with high engine force for heavy construction work. Comfortable cabin with smooth operation.",
-    image: "/catalogue/19.png",
-    gallery: ["/catalogue/19.png"],
+    image: "/products/mini-excavator-tm-1.jpeg",
+    gallery: ["/products/mini-excavator-tm-1.jpeg", "/catalogue/19.png"],
     specifications: [
       { label: "Operating Weight", value: "20000 kg" },
       { label: "Bucket Capacity", value: "0.90 m³" },
@@ -1250,8 +1468,8 @@ export const products: Product[] = [
     model: "TX-300",
     description:
       "30 Ton large scale excavator for maximum digging power and reach. Ideal for large infrastructure and government projects.",
-    image: "/catalogue/19.png",
-    gallery: ["/catalogue/19.png"],
+    image: "/products/mini-excavator-tm-1.jpeg",
+    gallery: ["/products/mini-excavator-tm-1.jpeg", "/catalogue/19.png"],
     specifications: [
       { label: "Operating Weight", value: "30000 kg" },
       { label: "Bucket Capacity", value: "1.38 m³" },
@@ -1269,24 +1487,427 @@ export const products: Product[] = [
     tags: ["excavator", "30 ton", "large", "government"],
     isFeatured: true,
   },
+  // ─── SPIRAL BENDING MACHINES ──────────────────────────────────────────────
+  {
+    id: "rm-owh32",
+    slug: "spiral-bending-machine-owh32",
+    category: "Ring Making Machines",
+    name: "Spiral Bending Machine OWH-32",
+    model: "OWH-32",
+    description:
+      "Heavy-duty spiral bending machine for helical and coil rebar fabrication. Bends 16–32mm TMT bars into continuous spirals used in pile foundations and column cages.",
+    image: "/products/spiral-bender-owh-tm-1.jpeg",
+    gallery: [
+      "/products/spiral-bender-owh-tm-1.jpeg",
+      "/products/stirrup-product-tm-1.jpg",
+      "/products/stirrup-product-tm-2.jpg",
+    ],
+    specifications: [
+      { label: "Bending Diameter", value: "16 – 32 mm" },
+      { label: "Plate Diameter", value: "360 mm" },
+      { label: "Bending Speed", value: "20 r/min" },
+      { label: "Motor Power", value: "3 kW / 415 V" },
+      { label: "Motor Speed", value: "1440 r/min" },
+      { label: "Weight", value: "320 kg" },
+    ],
+    applications: ["Pile Foundation Cages", "Column Spiral Reinforcement", "Bridge Piers", "Heavy Structural Works"],
+    features: ["Handles up to 32mm TMT bar", "Continuous spiral fabrication", "360mm large plate diameter", "Robust build for heavy rebar"],
+    weight: "320 kg",
+    power: "3 kW",
+    capacity: "16–32 mm",
+    tags: ["spiral", "bending", "helix", "pile", "OWH-32"],
+  },
+  {
+    id: "rm-owh24",
+    slug: "spiral-bending-machine-owh24",
+    category: "Ring Making Machines",
+    name: "Spiral Bending Machine OWH-24",
+    model: "OWH-24",
+    description:
+      "Compact spiral bending machine for 6–24mm rebar. Ideal for fabricating helical stirrups, column spirals and pile cage reinforcement at faster speeds.",
+    image: "/products/spiral-bender-owh-tm-1.jpeg",
+    gallery: [
+      "/products/spiral-bender-owh-tm-1.jpeg",
+      "/products/stirrup-product-tm-1.jpg",
+      "/products/stirrup-product-tm-3.jpg",
+    ],
+    specifications: [
+      { label: "Bending Diameter", value: "6 – 24 mm" },
+      { label: "Plate Diameter", value: "360 mm" },
+      { label: "Bending Speed", value: "28 r/min" },
+      { label: "Motor Power", value: "3 kW / 415 V" },
+      { label: "Motor Speed", value: "1440 r/min" },
+      { label: "Weight", value: "300 kg" },
+    ],
+    applications: ["Column Spiral Reinforcement", "Pile Foundation Cages", "Bridge Construction", "Precast Concrete"],
+    features: ["Wider speed range for versatility", "Handles 6–24mm TMT bar", "High production rate", "Compact footprint for small yards"],
+    weight: "300 kg",
+    power: "3 kW",
+    capacity: "6–24 mm",
+    tags: ["spiral", "bending", "helix", "pile", "OWH-24"],
+  },
+  // ─── GTQ4 BAR STRAIGHTENING MACHINES ─────────────────────────────────────
+  {
+    id: "bs-gtq412a",
+    slug: "bar-straightening-machine-gtq4-12a",
+    category: "Bar Straightening Machines",
+    name: "Bar Straightening Machine GTQ4-12A",
+    model: "GTQ4-12A",
+    description:
+      "Orange GTQ4-12A rebar straightening machine for 4–8mm coiled rebar. High-speed automatic straightening and cutting with precise length control. Compact and easy to operate.",
+    image: "/products/bar-straightener-gtq-tm-1.jpeg",
+    gallery: [
+      "/products/bar-straightener-gtq-tm-1.jpeg",
+      "/products/bar-straightener-able-tm-1.jpeg",
+      "/products/bar-straightener-techno-55m-2.jpeg",
+    ],
+    specifications: [
+      { label: "Straightening Capacity", value: "4 – 8 mm" },
+      { label: "Straightening Speed", value: "35 – 45 m/min" },
+      { label: "Motor Power", value: "7.5 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "550 kg" },
+    ],
+    applications: ["Small Rebar Straightening", "Building Construction", "Reinforcement Fabrication", "Precast Plants"],
+    features: ["Automatic straighten & cut in one pass", "Precise length control", "High-speed processing", "Compact design for easy setup"],
+    weight: "550 kg",
+    power: "7.5 kW",
+    capacity: "4–8 mm",
+    tags: ["rebar", "straightening", "GTQ4", "automatic", "4-8mm"],
+  },
+  {
+    id: "bs-gtq414",
+    slug: "bar-straightening-machine-gtq4-14",
+    category: "Bar Straightening Machines",
+    name: "Bar Straightening Machine GTQ4-14",
+    model: "GTQ4-14",
+    description:
+      "Heavy-duty GTQ4-14 rebar straightening machine for 5–12mm coiled bars. Higher power motor for faster straightening rates. Suitable for mid-size fabrication yards.",
+    image: "/products/bar-straightener-gtq-tm-1.jpeg",
+    gallery: [
+      "/products/bar-straightener-gtq-tm-1.jpeg",
+      "/products/bar-straightener-able-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Straightening Capacity", value: "5 – 12 mm" },
+      { label: "Straightening Speed", value: "40 – 45 m/min" },
+      { label: "Motor Power", value: "16 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "1160 kg" },
+    ],
+    applications: ["Medium Rebar Straightening", "Bridge Construction", "Infrastructure Projects", "Precast Concrete"],
+    features: ["Higher power for heavier bars", "Automatic straighten & cut", "Robust heavy-duty construction", "Handles 5–12mm coiled rebar"],
+    weight: "1160 kg",
+    power: "16 kW",
+    capacity: "5–12 mm",
+    tags: ["rebar", "straightening", "GTQ4", "automatic", "5-12mm"],
+  },
+  // ─── SCRAP STRAIGHTENING MACHINES ────────────────────────────────────────
+  {
+    id: "bs-scrap614",
+    slug: "scrap-straightening-machine-or-6-14",
+    category: "Bar Straightening Machines",
+    name: "Scrap Rebar Straightening Machine OR 6-14",
+    model: "OR 6-14",
+    description:
+      "Yellow scrap rebar straightening machine for recycling 6–14mm scrap wire and bent bars. Two-motor drive for efficient straightening of irregular scrap rebar.",
+    image: "/products/scrap-straightener-tm-1.jpeg",
+    gallery: [
+      "/products/scrap-straightener-tm-1.jpeg",
+      "/products/bar-straightener-gtq-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Straightening Capacity", value: "6 – 14 mm" },
+      { label: "Straightening Speed", value: "28 m/min" },
+      { label: "Motor Power", value: "5.5 kW + 2.2 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "720 kg" },
+    ],
+    applications: ["Scrap Rebar Recycling", "Waste Bar Processing", "Construction Waste Recovery", "Reinforcement Rework"],
+    features: ["Dual motor for efficient scrap processing", "Handles 6–14mm bent/scrap bars", "Cost-effective recycling solution", "Robust yellow steel body"],
+    weight: "720 kg",
+    power: "7.7 kW",
+    capacity: "6–14 mm",
+    tags: ["scrap", "straightening", "recycling", "OR-6-14"],
+  },
+  {
+    id: "bs-scrap1425",
+    slug: "scrap-straightening-machine-or-14-25",
+    category: "Bar Straightening Machines",
+    name: "Scrap Rebar Straightening Machine OR 14-25",
+    model: "OR 14-25",
+    description:
+      "Heavy-duty scrap straightening machine for 14–25mm large diameter scrap bars. Powerful motor for straightening thick bent and scrap rebar for reuse.",
+    image: "/products/scrap-straightener-tm-1.jpeg",
+    gallery: [
+      "/products/scrap-straightener-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Straightening Capacity", value: "14 – 25 mm" },
+      { label: "Straightening Speed", value: "30 m/min" },
+      { label: "Motor Power", value: "15 kW" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+      { label: "Weight", value: "1030 kg" },
+    ],
+    applications: ["Large Scrap Rebar Recycling", "Heavy Bar Rework", "Infrastructure Waste Recovery"],
+    features: ["Handles large 14–25mm scrap bars", "Powerful 15 kW single motor", "Heavy-duty construction", "Efficient scrap recovery"],
+    weight: "1030 kg",
+    power: "15 kW",
+    capacity: "14–25 mm",
+    tags: ["scrap", "straightening", "recycling", "OR-14-25", "heavy"],
+  },
+  // ─── WATER PUMPS ──────────────────────────────────────────────────────────
+  {
+    id: "wp-w25p",
+    slug: "water-pump-w25p",
+    category: "Water Pumps",
+    name: "Petrol Water Pump W25P (1\")",
+    model: "W25P",
+    description:
+      "Compact 1-inch petrol water pump for light dewatering and water transfer on construction sites. Easy to carry and quick to start.",
+    image: "/products/water-pump-tm-1.jpeg",
+    gallery: [
+      "/products/water-pump-tm-1.jpeg",
+      "/products/water-pump-tm-2.jpeg",
+    ],
+    specifications: [
+      { label: "Outlet Diameter", value: "25 mm (1\")" },
+      { label: "Engine Type", value: "Petrol / Gasoline" },
+      { label: "Max. Flow Rate", value: "140 L/min" },
+      { label: "Max. Head", value: "28 m" },
+      { label: "Suction Head", value: "8 m" },
+    ],
+    applications: ["Site Dewatering", "Water Transfer", "Garden & Agriculture", "Emergency Pumping"],
+    features: ["Compact & lightweight", "Easy recoil start", "Petrol engine for remote use", "Durable body & corrosion resistant"],
+    capacity: "140 L/min",
+    tags: ["water pump", "petrol", "1 inch", "dewatering", "W25P"],
+  },
+  {
+    id: "wp-w40p",
+    slug: "water-pump-w40p",
+    category: "Water Pumps",
+    name: "Petrol Water Pump W40P (1.5\")",
+    model: "W40P",
+    description:
+      "1.5-inch petrol water pump with higher flow for medium dewatering tasks on construction sites and agricultural use.",
+    image: "/products/water-pump-tm-1.jpeg",
+    gallery: [
+      "/products/water-pump-tm-1.jpeg",
+      "/products/water-pump-tm-2.jpeg",
+    ],
+    specifications: [
+      { label: "Outlet Diameter", value: "40 mm (1.5\")" },
+      { label: "Engine Type", value: "Petrol / Gasoline" },
+      { label: "Max. Flow Rate", value: "250 L/min" },
+      { label: "Max. Head", value: "30 m" },
+      { label: "Suction Head", value: "8 m" },
+    ],
+    applications: ["Construction Dewatering", "Water Transfer", "Irrigation", "Flood Control"],
+    features: ["Higher flow rate than 1\"", "Petrol engine for portability", "Durable orange body", "Easy to maintain"],
+    capacity: "250 L/min",
+    tags: ["water pump", "petrol", "1.5 inch", "dewatering", "W40P"],
+  },
+  {
+    id: "wp-w50p",
+    slug: "water-pump-w50p",
+    category: "Water Pumps",
+    name: "Petrol Water Pump W50P (2\")",
+    model: "W50P",
+    description:
+      "2-inch petrol water pump for medium to heavy dewatering. Suitable for construction pits, basement flooding and site drainage.",
+    image: "/products/water-pump-tm-1.jpeg",
+    gallery: [
+      "/products/water-pump-tm-1.jpeg",
+      "/products/water-pump-tm-2.jpeg",
+    ],
+    specifications: [
+      { label: "Outlet Diameter", value: "50 mm (2\")" },
+      { label: "Engine Type", value: "Petrol / Gasoline" },
+      { label: "Max. Flow Rate", value: "500 L/min" },
+      { label: "Max. Head", value: "32 m" },
+      { label: "Suction Head", value: "8 m" },
+    ],
+    applications: ["Construction Pit Dewatering", "Basement Flooding", "Site Drainage", "Irrigation"],
+    features: ["High flow 2-inch outlet", "Petrol engine for off-grid use", "Reliable and easy start", "Compact design"],
+    capacity: "500 L/min",
+    tags: ["water pump", "petrol", "2 inch", "dewatering", "W50P"],
+    isFeatured: true,
+  },
+  {
+    id: "wp-w80p",
+    slug: "water-pump-w80p",
+    category: "Water Pumps",
+    name: "Petrol Water Pump W80P (3\")",
+    model: "W80P",
+    description:
+      "3-inch high-volume petrol water pump for heavy dewatering, large construction sites and flood management. Maximum flow with strong engine.",
+    image: "/products/water-pump-tm-1.jpeg",
+    gallery: [
+      "/products/water-pump-tm-1.jpeg",
+      "/products/water-pump-tm-2.jpeg",
+    ],
+    specifications: [
+      { label: "Outlet Diameter", value: "80 mm (3\")" },
+      { label: "Engine Type", value: "Petrol / Gasoline" },
+      { label: "Max. Flow Rate", value: "1100 L/min" },
+      { label: "Max. Head", value: "28 m" },
+      { label: "Suction Head", value: "8 m" },
+    ],
+    applications: ["Large Site Dewatering", "Flood Management", "Tunnel Drainage", "Heavy Construction"],
+    features: ["Maximum 3-inch flow capacity", "Strong petrol engine", "Handles dirty water & solids", "Heavy duty build"],
+    capacity: "1100 L/min",
+    tags: ["water pump", "petrol", "3 inch", "dewatering", "W80P", "heavy duty"],
+    isFeatured: true,
+  },
+  // ─── CONCRETE PUMPS ───────────────────────────────────────────────────────
+  {
+    id: "cp-or80t",
+    slug: "concrete-pump-or-80t",
+    category: "Concrete Pumps",
+    name: "Electric Concrete Pump OR-80T",
+    model: "OR-80T",
+    description:
+      "Electric trailer concrete pump for pumping concrete to high floors and remote locations. 11 kW motor with 12.2 m³/hr output capacity. Ideal for building and civil construction.",
+    image: "/products/concrete-pump-tm-1.jpeg",
+    gallery: [
+      "/products/concrete-pump-tm-1.jpeg",
+      "/catalogue/11.png",
+    ],
+    specifications: [
+      { label: "Motor Power", value: "11 kW" },
+      { label: "Pumping Output", value: "12.2 m³/hr" },
+      { label: "Max. Transit Stone", value: "30 mm" },
+      { label: "Delivery Pipe Diameter", value: "100 mm" },
+      { label: "Weight", value: "1100 kg" },
+      { label: "Voltage / Frequency", value: "415 V / 50 Hz / 3 Phase" },
+    ],
+    applications: ["High-Rise Building Construction", "Remote Concrete Pouring", "Basement & Foundation", "Bridge & Infrastructure"],
+    features: ["Electric motor for clean operation", "High output 12.2 m³/hr", "30mm max stone size", "100mm delivery pipe", "Trailer mounted for mobility"],
+    weight: "1100 kg",
+    power: "11 kW",
+    capacity: "12.2 m³/hr",
+    tags: ["concrete pump", "electric", "trailer", "OR-80T", "pumping"],
+    isFeatured: true,
+  },
+  // ─── THREAD ROLLING MACHINES ──────────────────────────────────────────────
+  {
+    id: "trm-or40",
+    slug: "thread-rolling-machine-or40",
+    category: "Thread Rolling Machines",
+    name: "Thread Rolling Machine OR-40",
+    model: "OR-40",
+    description:
+      "OR-40 thread rolling machine for creating mechanical couplers on 16–40mm rebar ends. Precise thread pitch for coupler splicing of TMT bars on construction sites.",
+    image: "/products/thread-rolling-machine-tm-1.jpeg",
+    gallery: [
+      "/products/thread-rolling-machine-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Threading Diameter", value: "16 – 40 mm" },
+      { label: "Thread Pitch", value: "2.5 / 3.0 mm" },
+      { label: "Speed", value: "62 – 80 r/min" },
+      { label: "Motor Power", value: "5.5 kW / 415 V" },
+      { label: "Threading Length", value: "80 – 120 mm" },
+      { label: "Weight", value: "400 kg" },
+    ],
+    applications: ["Rebar Mechanical Splicing", "Coupler Connection", "High-Rise Building", "Bridge & Infrastructure"],
+    features: ["Handles 16–40mm TMT bars", "Precise thread pitch for couplers", "Limit switch & sensor type options", "Reliable single motor drive"],
+    weight: "400 kg",
+    power: "5.5 kW",
+    capacity: "16–40 mm",
+    tags: ["thread rolling", "rebar coupler", "mechanical splice", "OR-40"],
+    isFeatured: true,
+  },
+  {
+    id: "trm-smt40",
+    slug: "thread-rolling-machine-smt40",
+    category: "Thread Rolling Machines",
+    name: "Automatic Thread Rolling Machine SMT-40",
+    model: "SMT-40",
+    description:
+      "Semi-automatic forward/reverse thread rolling machine for 16–40mm rebar. Sensor-controlled automatic operation for faster production and consistent thread quality.",
+    image: "/products/thread-rolling-machine-tm-1.jpeg",
+    gallery: [
+      "/products/thread-rolling-machine-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Threading Diameter", value: "16 – 40 mm" },
+      { label: "Thread Pitch", value: "79×2.5mm (16–22mm) / 71×3mm (25–32mm) / 62.5×3mm (36–40mm)" },
+      { label: "Speed", value: "62 – 80 r/min" },
+      { label: "Motor Power", value: "5.5 kW + 0.4 kW reducer" },
+      { label: "Voltage", value: "415 V (3 Phase)" },
+      { label: "Threading Length", value: "80 mm" },
+      { label: "Weight", value: "400 kg" },
+    ],
+    applications: ["High Volume Rebar Threading", "Precast Plants", "Coupler Splicing", "Infrastructure Projects"],
+    features: ["Automatic forward/reverse sensor control", "Multiple pitch options for different bar sizes", "Consistent thread quality", "Faster production than manual type"],
+    weight: "400 kg",
+    power: "5.9 kW",
+    capacity: "16–40 mm",
+    tags: ["thread rolling", "automatic", "rebar coupler", "SMT-40"],
+  },
+  // ─── SUSPENDED PLATFORMS ──────────────────────────────────────────────────
+  {
+    id: "sp-zlp800",
+    slug: "suspended-platform-zlp800",
+    category: "Suspended Platforms",
+    name: "Suspended Platform ZLP-800",
+    model: "ZLP-800",
+    description:
+      "Electric suspended working platform for high-rise building facade work, painting, cladding and maintenance. 800 kg rated load with tilt-proof safety locks.",
+    image: "/products/suspended-platform-tm-1.jpeg",
+    gallery: [
+      "/products/suspended-platform-tm-1.jpeg",
+    ],
+    specifications: [
+      { label: "Rated Load", value: "800 kg" },
+      { label: "Platform Length", value: "Up to 7.5 m (2.5m + 2.5m + 1.5m + 1m)" },
+      { label: "Material", value: "M.S. Steel Platform, Beta Dip Hot Galvanized" },
+      { label: "Ascend Speed", value: "9 – 11 m/min" },
+      { label: "Power", value: "1.8 kW × 2 motors" },
+      { label: "Voltage / Frequency", value: "415 V / 3 Phase" },
+      { label: "Wire Rope Size", value: "9.1 mm (4×31 Sw-FC-9.1)" },
+      { label: "Wire Rope Length", value: "75 / 100 / 150 m" },
+      { label: "Balance Weight", value: "1000 kg" },
+      { label: "Rated Lifting Force", value: "8 kN" },
+      { label: "Structure Weight", value: "900 – 950 kg" },
+    ],
+    applications: ["High-Rise Building Facade", "Painting & Cladding", "Glass Curtain Wall", "Building Maintenance", "Bridge Inspection"],
+    features: ["Tilt-proof safety locks", "Optional load cell & anti-swing device", "Adjustable height mechanism", "Modular platform sections", "Electrical control system"],
+    weight: "950 kg",
+    power: "3.6 kW",
+    capacity: "800 kg",
+    tags: ["suspended platform", "gondola", "facade", "high rise", "ZLP-800"],
+    isFeatured: true,
+  },
 ];
 
 export const categories = [
   { name: "Rebar Cutting Machines", icon: "scissors", count: products.filter((p) => p.category === "Rebar Cutting Machines").length },
+  { name: "Rebar Bending Machines", icon: "git-merge", count: products.filter((p) => p.category === "Rebar Bending Machines").length },
+  { name: "Bar Straightening Machines", icon: "minus", count: products.filter((p) => p.category === "Bar Straightening Machines").length },
+  { name: "Ring Making Machines", icon: "circle", count: products.filter((p) => p.category === "Ring Making Machines").length },
   { name: "Generators", icon: "zap", count: products.filter((p) => p.category === "Generators").length },
   { name: "Concrete Mixers", icon: "rotate-cw", count: products.filter((p) => p.category === "Concrete Mixers").length },
   { name: "Tamping Rammers", icon: "arrow-down", count: products.filter((p) => p.category === "Tamping Rammers").length },
   { name: "Vibratory Rollers", icon: "loader", count: products.filter((p) => p.category === "Vibratory Rollers").length },
-  { name: "Power Trowels", icon: "circle", count: products.filter((p) => p.category === "Power Trowels").length },
+  { name: "Power Trowels", icon: "wind", count: products.filter((p) => p.category === "Power Trowels").length },
   { name: "Concrete Cutters", icon: "git-branch", count: products.filter((p) => p.category === "Concrete Cutters").length },
   { name: "Jack Hammers", icon: "hammer", count: products.filter((p) => p.category === "Jack Hammers").length },
   { name: "Backhoe Loaders", icon: "truck", count: products.filter((p) => p.category === "Backhoe Loaders").length },
   { name: "Excavators", icon: "activity", count: products.filter((p) => p.category === "Excavators").length },
   { name: "Plate Compactors", icon: "layers", count: products.filter((p) => p.category === "Plate Compactors").length },
   { name: "Internal Vibrators", icon: "radio", count: products.filter((p) => p.category === "Internal Vibrators").length },
+  { name: "Water Pumps", icon: "droplets", count: products.filter((p) => p.category === "Water Pumps").length },
+  { name: "Concrete Pumps", icon: "arrow-up", count: products.filter((p) => p.category === "Concrete Pumps").length },
+  { name: "Thread Rolling Machines", icon: "settings", count: products.filter((p) => p.category === "Thread Rolling Machines").length },
+  { name: "Suspended Platforms", icon: "layout", count: products.filter((p) => p.category === "Suspended Platforms").length },
 ];
 
-export const featuredProducts = products.filter((p) => p.isFeatured);
+export const featuredProducts = [
+  ...products.filter((p) => p.isFeatured && p.image.startsWith("/products/")),
+  ...products.filter((p) => p.isFeatured && !p.image.startsWith("/products/")),
+];
 
 export function getProductBySlug(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
@@ -1296,6 +1917,33 @@ export function getProductsByCategory(category: string): Product[] {
   return products.filter((p) => p.category === category);
 }
 
+const CATEGORY_ORDER = [
+  "Rebar Cutting Machines",
+  "Rebar Bending Machines",
+  "Bar Straightening Machines",
+  "Ring Making Machines",
+  "Concrete Mixers",
+  "Concrete Pumps",
+  "Plate Compactors",
+  "Tamping Rammers",
+  "Vibratory Rollers",
+  "Concrete Cutters",
+  "Jack Hammers",
+  "Internal Vibrators",
+  "External Vibrators",
+  "Power Trowels",
+  "Water Pumps",
+  "Thread Rolling Machines",
+  "Generators",
+  "Backhoe Loaders",
+  "Excavators",
+  "Suspended Platforms",
+];
+
 export function getAllCategories(): string[] {
-  return [...new Set(products.map((p) => p.category))];
+  const all = [...new Set(products.map((p) => p.category))];
+  return [
+    ...CATEGORY_ORDER.filter((c) => all.includes(c)),
+    ...all.filter((c) => !CATEGORY_ORDER.includes(c)),
+  ];
 }

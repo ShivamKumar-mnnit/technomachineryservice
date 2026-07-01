@@ -5,22 +5,29 @@ import { useInView } from "react-intersection-observer";
 import Link from "next/link";
 import {
   Scissors, Zap, RotateCw, ArrowDownToLine, Layers, Circle,
-  GitBranch, Hammer, Truck, Activity, Radio, Wrench
+  GitBranch, Hammer, Truck, Activity, Radio, Wrench, GitMerge, Minus,
+  Droplets, ArrowUp, Settings, Layout
 } from "lucide-react";
 
 const categories = [
   { name: "Rebar Cutting Machines", icon: Scissors, color: "from-red-500 to-red-700", desc: "32mm–52mm cutting capacity" },
+  { name: "Rebar Bending Machines", icon: GitMerge, color: "from-amber-500 to-amber-700", desc: "GW-42J, SXW-42, GW-52 models" },
+  { name: "Bar Straightening Machines", icon: Minus, color: "from-sky-500 to-sky-700", desc: "CNC & GTQ4 straightening machines" },
+  { name: "Ring Making Machines", icon: Circle, color: "from-emerald-500 to-emerald-700", desc: "Ring, stirrup & spiral benders" },
+  { name: "Water Pumps", icon: Droplets, color: "from-blue-400 to-blue-600", desc: "1\" to 3\" petrol water pumps" },
+  { name: "Concrete Pumps", icon: ArrowUp, color: "from-red-400 to-red-600", desc: "Electric trailer concrete pump" },
   { name: "Generators", icon: Zap, color: "from-yellow-500 to-yellow-700", desc: "15 KVA to 62.5 KVA diesel sets" },
   { name: "Concrete Mixers", icon: RotateCw, color: "from-blue-500 to-blue-700", desc: "125 Ltr to 500 Ltr capacity" },
   { name: "Tamping Rammers", icon: ArrowDownToLine, color: "from-green-500 to-green-700", desc: "TR-60 to TR-100 series" },
   { name: "Plate Compactors", icon: Layers, color: "from-purple-500 to-purple-700", desc: "Forward & reversible types" },
-  { name: "Power Trowels", icon: Circle, color: "from-pink-500 to-pink-700", desc: "24\" to 60\" blade diameter" },
   { name: "Concrete Cutters", icon: GitBranch, color: "from-orange-500 to-orange-700", desc: "14\" to 20\" floor saws" },
   { name: "Jack Hammers", icon: Hammer, color: "from-teal-500 to-teal-700", desc: "Light to heavy duty breakers" },
   { name: "Backhoe Loaders", icon: Truck, color: "from-indigo-500 to-indigo-700", desc: "30 HP to 60 HP models" },
   { name: "Excavators", icon: Activity, color: "from-cyan-500 to-cyan-700", desc: "8 Ton to 30 Ton class" },
   { name: "Vibratory Rollers", icon: Wrench, color: "from-lime-500 to-lime-700", desc: "Walk-behind to ride-on" },
   { name: "Internal Vibrators", icon: Radio, color: "from-rose-500 to-rose-700", desc: "HMS, IREN, IRFU series" },
+  { name: "Thread Rolling Machines", icon: Settings, color: "from-slate-500 to-slate-700", desc: "Rebar coupler threading 16–40mm" },
+  { name: "Suspended Platforms", icon: Layout, color: "from-violet-500 to-violet-700", desc: "ZLP-800 electric working platform" },
 ];
 
 export default function CategoriesSection() {

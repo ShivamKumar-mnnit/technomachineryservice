@@ -22,7 +22,7 @@ const testimonials = [
     company: "Sharma Builders",
     city: "Howrah",
     rating: 5,
-    text: "We ordered a SONA R40 rebar cutter and it arrived in 2 days. The machine is powerful and efficient. Highly recommend Techno Machinery for all construction equipment needs.",
+    text: "We ordered a Techno TM-R40 rebar cutter and it arrived in 2 days. The machine is powerful and efficient. Highly recommend Techno Machinery for all construction equipment needs.",
     avatar: "SS",
   },
   {

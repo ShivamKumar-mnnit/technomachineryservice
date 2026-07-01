@@ -42,6 +42,18 @@ function ProductsContent() {
     if (selectedCategory) {
       list = list.filter((p) => p.category === selectedCategory);
     }
+    if (sortBy === "default") {
+      const TOP_CATS = ["Rebar Cutting Machines", "Rebar Bending Machines"];
+      list.sort((a, b) => {
+        const aTop = TOP_CATS.includes(a.category) ? 2 : 0;
+        const bTop = TOP_CATS.includes(b.category) ? 2 : 0;
+        if (bTop !== aTop) return bTop - aTop;
+        const aReal = a.image.startsWith("/products/") ? 1 : 0;
+        const bReal = b.image.startsWith("/products/") ? 1 : 0;
+        if (bReal !== aReal) return bReal - aReal;
+        return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0);
+      });
+    }
     if (sortBy === "name") list.sort((a, b) => a.name.localeCompare(b.name));
     if (sortBy === "category") list.sort((a, b) => a.category.localeCompare(b.category));
     return list;
@@ -228,10 +240,15 @@ function ProductsContent() {
                           className="product-image object-contain p-4"
                           sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                         />
-                        <div className="absolute top-3 left-3">
+                        <div className="absolute top-3 left-3 flex flex-col gap-1.5">
                           <span className="bg-[#071B45] text-[#F7B500] text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide">
                             {product.category}
                           </span>
+                          {product.isFeatured && (
+                            <span className="bg-[#F7B500] text-[#071B45] text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide flex items-center gap-1">
+                              ★ Featured
+                            </span>
+                          )}
                         </div>
                         {/* Hover overlay */}
                         <div className="absolute inset-0 bg-[#071B45]/0 group-hover:bg-[#071B45]/10 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100">

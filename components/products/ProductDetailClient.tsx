@@ -3,19 +3,33 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { ShoppingBag, ChevronLeft, CheckCircle, Phone, MessageSquare } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ShoppingBag, ChevronLeft, ChevronRight, CheckCircle, Phone, MessageSquare, Play } from "lucide-react";
 import { Product } from "@/types";
 import { useRequest } from "@/context/RequestContext";
 import { toast } from "sonner";
-import { PHONE_PRIMARY, PHONE_SECONDARY, WA_BASE } from "@/lib/contact";
+import { PHONE_PRIMARY, PHONE_SECONDARY, WA_BASE, YOUTUBE_CHANNEL } from "@/lib/contact";
+import YouTubePlayer from "@/components/ui/YouTubePlayer";
 
 export default function ProductDetailClient({ product }: { product: Product }) {
   const { addItem, isInRequest, removeItem } = useRequest();
   const [qty, setQty] = useState(1);
+  const [videoOpen, setVideoOpen] = useState(false);
   const [activeImage, setActiveImage] = useState(0);
+  const [direction, setDirection] = useState(0);
 
-  const allImages = product.gallery.length > 0 ? product.gallery : [product.image];
+  // Deduplicate: main image first, then additional gallery images
+  const allImages = [
+    product.image,
+    ...product.gallery.filter((img) => img !== product.image),
+  ];
+
+  const goTo = (idx: number) => {
+    setDirection(idx > activeImage ? 1 : -1);
+    setActiveImage(idx);
+  };
+  const prev = () => goTo((activeImage - 1 + allImages.length) % allImages.length);
+  const next = () => goTo((activeImage + 1) % allImages.length);
 
   const handleAddToRequest = () => {
     if (isInRequest(product.id)) {
@@ -53,37 +67,101 @@ export default function ProductDetailClient({ product }: { product: Product }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Left: Images */}
+          {/* Left: Images — Amazon-style gallery */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="relative aspect-square bg-white rounded-2xl border border-gray-100 overflow-hidden mb-4 shadow-sm">
-              <Image
-                src={allImages[activeImage]}
-                alt={product.name}
-                fill
-                className="object-contain p-8"
-                priority
-              />
-              <div className="absolute top-4 left-4">
-                <span className="bg-[#071B45] text-[#F7B500] text-xs font-bold px-3 py-1.5 rounded-full">
-                  {product.category}
-                </span>
+            <div className="flex gap-3">
+              {/* Vertical thumbnail strip — desktop */}
+              {allImages.length > 1 && (
+                <div className="hidden sm:flex flex-col gap-2 w-[72px] flex-shrink-0 max-h-[480px] overflow-y-auto pr-1"
+                  style={{ scrollbarWidth: "thin" }}>
+                  {allImages.map((img, i) => (
+                    <button
+                      key={i}
+                      onClick={() => goTo(i)}
+                      className={`flex-shrink-0 w-16 h-16 rounded-xl border-2 overflow-hidden transition-all bg-white ${
+                        activeImage === i
+                          ? "border-[#F7B500] shadow-md"
+                          : "border-gray-200 hover:border-gray-400"
+                      }`}
+                    >
+                      <Image src={img} alt="" width={64} height={64} className="object-contain p-1 w-full h-full" />
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {/* Main image */}
+              <div className="flex-1 relative aspect-square bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+                <AnimatePresence mode="wait" initial={false}>
+                  <motion.div
+                    key={activeImage}
+                    className="absolute inset-0"
+                    initial={{ opacity: 0, x: direction * 40 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: direction * -40 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src={allImages[activeImage]}
+                      alt={`${product.name} — image ${activeImage + 1}`}
+                      fill
+                      className="object-contain p-8"
+                      priority={activeImage === 0}
+                    />
+                  </motion.div>
+                </AnimatePresence>
+
+                {/* Category badge */}
+                <div className="absolute top-4 left-4 z-10">
+                  <span className="bg-[#071B45] text-[#F7B500] text-xs font-bold px-3 py-1.5 rounded-full">
+                    {product.category}
+                  </span>
+                </div>
+
+                {/* Prev / Next arrows — only when multiple images */}
+                {allImages.length > 1 && (
+                  <>
+                    <button
+                      onClick={prev}
+                      className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full bg-white/90 hover:bg-white border border-gray-200 shadow-md flex items-center justify-center text-gray-600 hover:text-[#071B45] transition-all"
+                      aria-label="Previous image"
+                    >
+                      <ChevronLeft className="w-5 h-5" />
+                    </button>
+                    <button
+                      onClick={next}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full bg-white/90 hover:bg-white border border-gray-200 shadow-md flex items-center justify-center text-gray-600 hover:text-[#071B45] transition-all"
+                      aria-label="Next image"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </button>
+                    {/* Counter */}
+                    <div className="absolute bottom-3 right-3 z-10 bg-black/50 text-white text-xs font-semibold px-2.5 py-1 rounded-full">
+                      {activeImage + 1} / {allImages.length}
+                    </div>
+                  </>
+                )}
               </div>
             </div>
+
+            {/* Horizontal thumbnails — mobile only */}
             {allImages.length > 1 && (
-              <div className="flex gap-3 overflow-x-auto">
+              <div className="flex sm:hidden gap-2 mt-3 overflow-x-auto pb-1" style={{ scrollbarWidth: "none" }}>
                 {allImages.map((img, i) => (
                   <button
                     key={i}
-                    onClick={() => setActiveImage(i)}
-                    className={`flex-shrink-0 w-16 h-16 rounded-lg border-2 overflow-hidden transition-all ${
-                      activeImage === i ? "border-[#F7B500]" : "border-gray-200 hover:border-gray-400"
+                    onClick={() => goTo(i)}
+                    className={`flex-shrink-0 w-14 h-14 rounded-lg border-2 overflow-hidden transition-all bg-white ${
+                      activeImage === i
+                        ? "border-[#F7B500] shadow-md"
+                        : "border-gray-200 hover:border-gray-400"
                     }`}
                   >
-                    <Image src={img} alt="" width={64} height={64} className="object-contain p-1 w-full h-full" />
+                    <Image src={img} alt="" width={56} height={56} className="object-contain p-1 w-full h-full" />
                   </button>
                 ))}
               </div>
@@ -175,7 +253,32 @@ export default function ProductDetailClient({ product }: { product: Product }) {
               <span className="text-gray-300">|</span>
               <a href={`tel:+91${PHONE_SECONDARY}`} className="font-bold text-[#071B45] hover:text-[#F7B500] transition-colors">{PHONE_SECONDARY}</a>
             </div>
+
+            {/* YouTube button */}
+            <button
+              onClick={() => {
+                if (product.videoId) {
+                  setVideoOpen(true);
+                } else {
+                  window.open(YOUTUBE_CHANNEL, "_blank");
+                }
+              }}
+              className="flex items-center gap-2 text-sm text-[#FF0000] hover:text-white bg-[#FF0000]/10 hover:bg-[#FF0000] border border-[#FF0000]/30 hover:border-[#FF0000] font-semibold px-4 py-2.5 rounded-xl transition-all w-full justify-center"
+            >
+              <Play className="w-4 h-4 fill-current" />
+              {product.videoId ? "Watch Product Video" : "Watch on YouTube"}
+            </button>
           </motion.div>
+
+          {/* YouTube player modal */}
+          {product.videoId && (
+            <YouTubePlayer
+              videoId={product.videoId}
+              title={product.name}
+              isOpen={videoOpen}
+              onClose={() => setVideoOpen(false)}
+            />
+          )}
         </div>
 
         {/* Specifications table */}

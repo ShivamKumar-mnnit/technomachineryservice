@@ -22,6 +22,7 @@ export interface Product {
   tags: string[];
   isNew?: boolean;
   isFeatured?: boolean;
+  videoId?: string;
 }
 
 export interface RequestItem {

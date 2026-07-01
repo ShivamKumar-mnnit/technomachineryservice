@@ -76,8 +76,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body className="bg-background text-dark antialiased overflow-x-hidden">
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`} suppressHydrationWarning>
+      <body className="bg-background text-dark antialiased overflow-x-hidden" suppressHydrationWarning>
         <RequestProvider>
           <LoadingScreen />
           <Navbar />
